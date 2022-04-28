@@ -1,0 +1,106 @@
+header {
+    font-family: Futura, Trebuchet MS;
+    font-weight: bold condensed;
+    color: #AC2B37;
+    font-size: 25px;
+    text-align: center;
+    /* margin: 20px 0px 25px 0px; */
+    /* margin: 20 0 10 0; */
+}
+
+body {
+    background-image: url("Resources/background.jpg");
+    background-position: top;
+    background-size: 4000px;
+}
+
+div#topnav {
+    width: 160px;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    height: 150px;
+    background-color: blueviolet;
+    opacity: 0.8;
+    border-radius: 0px 0px 50px 0px;
+}
+
+div#hamburger {
+    width: 160px;
+    height: 100%;
+    display: inline-block;
+    opacity: 1;
+    /* background-color: green; */
+    padding-top: 30px;
+}
+div#hamburger:active {
+    background-color: rgb(96, 33, 155)
+}
+
+.hamburgerPart {
+    width: 80px;
+    height: 12px;
+    background-color: white;
+    margin-top: 14px;
+    margin-bottom:14px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+}
+
+div#content {
+    width: 75%;
+    height: 100px;
+    /* background-color: black; */
+    margin-left: auto;
+    margin-top: 65%;
+    /* margin-bottom: auto; */
+    margin-right: auto;
+    /* opacity: 0.5; */
+    
+}
+img#logo {
+    display: block;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+input.input {
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    border-radius: 40px;
+    padding: 5px 0px 5px 25px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button#submit {
+    width: 250px;
+    height: 70px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(165, 165, 165);
+    color: white;
+    border-radius: 35px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button#submit:active {
+
+    background-color: rgb(109, 109, 109);
+    opacity: 0.9;
+
+}
+div#searchBar {
+    margin-top: 80px;
+    width:100%;
+    text-align: center;
+}
